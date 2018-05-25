@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>microsr — minimalist d6-based rules for old-school roleplaying game</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="microsr-beta">microsr (beta)</h1>
+<blockquote>
+<p>minimalist d6-based rules for old-school roleplaying game.</p>
+</blockquote>
+<h2 id="characters">characters</h2>
+<p>give them a name &amp; an origin.</p>
+<p>they start at level 1.</p>
+<p>6 domains: <em>combat</em>, <em>concentration</em>, <em>intuition</em>, <em>stealth</em>, <em>wilderness</em>, <em>lore</em>.</p>
+<p>spread +2, +1, +1, 0, -1, -1.</p>
+<h3 id="health">health</h3>
+<p>normal characters have 4 wounds.</p>
+<p>starting of the <em>weakened</em> health degree, characters suffer a modifier to all their actions.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">health</th>
+<th style="text-align: left;">wounds left</th>
+<th style="text-align: center;">mod</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">healthy</td>
+<td style="text-align: left;">all</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">scratched</td>
+<td style="text-align: left;">5 or more</td>
+<td style="text-align: center;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">weakened</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: center;">-1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hurt</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: center;">-2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">wounded</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: center;">-3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">crippled</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: center;">-4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">out of action</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+</tbody>
+</table>
+<p><em>out of action</em> characters must make a <em>save roll</em> each round until they're healed, or die.</p>
+<h3 id="origin">origin</h3>
+<ul>
+<li><em>elves</em>: +1 to <em>lore</em>, <em>wilderness</em> <strong>or</strong> <em>concentration</em>,</li>
+<li><em>dwarves</em>: +1 to <em>combat</em>, <em>concentration</em> <strong>or</strong> <em>lore</em> <strong>or</strong> add an fifth health degree, <em>scratched</em>,</li>
+<li><em>halflings</em>: +1 to <em>stealth</em> or <em>intuition</em> <strong>and</strong> +1 to save checks involving magic.</li>
+<li><em>humans</em>: +1 to any domain</li>
+</ul>
+<h3 id="equipment">equipment</h3>
+<p>regular clothes, a small blade or knife, a bag, rations for a couple of days.</p>
+<p>your <strong>gm</strong> may accept to add items depending on your background.</p>
+<p>you have d6 silver pieces (sp).</p>
+<h4 id="armor">armor</h4>
+<p>if the <strong>gm</strong> allows you to wear an armor.<br />
+armors may inflict movement penalties.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">armor type</th>
+<th style="text-align: center;">ac</th>
+<th style="text-align: right;">mov</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">no armor</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">light</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">medium</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: right;">-2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">heavy</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: right;">-3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">shield</td>
+<td style="text-align: center;">+1</td>
+<td style="text-align: right;">n/a</td>
+</tr>
+</tbody>
+</table>
+<h2 id="act">act</h2>
+<p>if it's likely, it happens.<br />
+if it's impossible, it doesn't.<br />
+only roll if the <strong>gm</strong> has doubts.</p>
+<p>roll 2d6+<em>domain</em>, include armor or health modifiers when applicable.</p>
+<ul>
+<li>on 6-, failure.</li>
+<li>on 7-9, success with a cost.</li>
+<li>10+, success at no cost.</li>
+</ul>
+<p>success: the player describes.<br />
+failure: the <strong>gm</strong> decides. the <strong>gm</strong> and other players can suggest the cost for mixed success. the <strong>gm</strong> has the final word.</p>
+<h3 id="rerolls">rerolls</h3>
+<p>once per session per level, you are allowed to reroll a failure. the reroll result <em>is</em> the definitive result, you are not allowed to reroll a reroll and wait for the next action.</p>
+<h3 id="optional-help">optional: help</h3>
+<p>helpers roll for the action. one plain success (10+) allows the helped character to reroll if needed.</p>
+<h2 id="combat">combat</h2>
+<h3 id="initiative">initiative</h3>
+<p>at the beginning of the fight: roll 2d6+<em>combat</em>.</p>
+<p>the ones who succeed will act first, then the mixed successful ones, then the failures. each tier will be considered as simultaneous actions.</p>
+<h3 id="fight">fight</h3>
+<p>on your turn, you are allowed to make one action and one attack.</p>
+<p>the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can chose to make two actions ; normal characters can't make two attacks per round.</p>
+<p>roll 2d6+<strong>combat</strong> for melee and 2d6+<strong>concentration</strong> for ranged weapons and beat your opponent <strong>ac</strong> (strictly greater). on a hit, the character checks <em>one</em> degree of health.</p>
+<p>the reroll rule also applies to attack rolls.</p>
+<p>when all degrees are checked, the character is <strong>out of action</strong>, dying. if not healed rapidly, death will come.</p>
+<p>make a save check each round. on a failure, the character dies.</p>
+<h3 id="save-check">save check</h3>
+<p>when you're facing a dreadful danger, are <em>out of action</em>, poisoned or charmed, you'll have to roll 2d6 <strong>with no modifier</strong>. a result of 6- means failure, there's no mixed success.</p>
+<p>failure usually means death.</p>
+<h3 id="optional-heavy-weapons">optional: heavy weapons</h3>
+<p>heavy weapons, such as two-handed swords or battle-axes: you'll suffer a -1 malus, but <em>two</em> degrees are checked on a hit.</p>
+<h3 id="optional-critical-hits--failures">optional: critical hits &amp; failures</h3>
+<p>on a double 1, or &quot;snake eyes&quot;: you fail miserably and your opponent hits you (check <em>one</em> degree).</p>
+<p>on a double 6, or &quot;crowns&quot;: you succeed and double your damages. optionally, you can choose to hit two targets instead of one.</p>
+<h2 id="experience">experience</h2>
+<p>the <strong>gm</strong> must reward clever choices and decisions, taking risks is okay, but lucky dice rolls would be the reward, not experience points (<strong>xp</strong>). reward acting as a group, following the character's goals, quests or dreams.</p>
+<p>surviving is already a reward in itself.</p>
+<p>at the end of their first adventure, they'll become level 2.</p>
+<p>when they'll accomplish their common goal, they'll become level 3.</p>
+<p>when they'll fulfill their personal quest, they'll become level 5.</p>
+<p>when they'll have saved the lives of a whole kingdom, they'll become level 8.</p>
+<hr />
+<h1 id="game-masters">game masters</h1>
+<h2 id="foes--monsters">foes &amp; monsters</h2>
+<p>foes are defined by their:</p>
+<ul>
+<li><p><strong>power</strong>: modifier to apply to all actions,</p></li>
+<li><p><strong>ac</strong>: armor class - <em>mov</em> modifiers apply for physical maneuvers.</p></li>
+<li><p><strong>wounds</strong>: health degrees - the same modifiers apply when reaching 3 wounds left.</p>
+<p>TODO: morale &amp; morale checks.</p></li>
+</ul>
+<h3 id="micro-bestiary">micro-bestiary</h3>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">name</th>
+<th style="text-align: center;">power</th>
+<th style="text-align: center;">ac</th>
+<th style="text-align: center;">wounds</th>
+<th style="text-align: left;">notes / details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">goblin</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">4-6</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">size: 2d6 individuals. +1 to attacks when in horde</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">giant rat</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">do not apply <strong>mov</strong> penalty, they're quick.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bandit</td>
+<td style="text-align: center;">-1 — 0</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">4 — 6</td>
+<td style="text-align: left;">size: 1d6 or 2d6 individuals</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">orc</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">7-8</td>
+<td style="text-align: center;">3 — 4</td>
+<td style="text-align: left;">some wear shields or mails</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">skeleton</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">missiles or ranged weapons won't wound them</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">troll</td>
+<td style="text-align: center;">0 — +2</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">heavy weapons (clubs or hammers)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">giant snake</td>
+<td style="text-align: center;">0 — +2</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">5 — 7</td>
+<td style="text-align: left;">may be venomous (one save vs. poison per round if bitten) ; constrict attack: one save per round or you're out of action</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">giant spider</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">one save vs. poison per round if bitten</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">dragon</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">knows some magic ; fire does 2 wounds ; 2 attacks per round ; <em>mov</em> penalty (-4) only on the ground for movements, not when flying.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="traps">traps</h2>
+<p>the <strong>gm</strong> has to make sure they know every details about traps.</p>
+<p>traps have a <em>location</em> (where is the &quot;thing&quot; that hurts), a <em>trigger mechanism</em> (where is it located? how does it triggers the trap?) and an <em>effect</em> (blades, darts, pit, poison, gas, agressive spell, crushing rocks or moving walls, etc).</p>
+<p>with all these elements at hand, the characters would only get out of it if the players have to thoroughly searched for them to make sure they can detect, disarm or bypass the traps without being hit.</p>
+<p>depending on their <em>effect</em>, traps will make from 1 to 3 wounds.</p>
+<h2 id="design-notes">design notes</h2>
+<pre><code>TODO: should I do it?
+</code></pre>
+<h2>notes</h2>
+<ul>
+<li>the six domains are inspired by <a href="http://www.story-games.com/forums/discussion/21359/lite-rpgs-to-run-a-d-d-like-game-session">this forum thread on Story-Game.com</a> about converting D&amp;D using Fate Accelerated approaches.</li>
+<li>the 3-tier resolution roll is inspired by the <a href="http://apocalypse-world.com/">Apocalypse World</a> move resolution (although this game is not powered by moves and it can't be considered as "PbtA").</li>
+</ul>
+
+<hr>
+<p>microsr is a rpg &copy; Bruno Bord - 2018 - <a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by</a></p>
+</body>
+</html>

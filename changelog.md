@@ -1,5 +1,10 @@
 # changes
 
+## current (unreleased)
+
+* removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
+* initiative now relies on *instinct*.
+
 ## beta 1
 
 first published version.

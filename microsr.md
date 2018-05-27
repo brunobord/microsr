@@ -8,9 +8,7 @@ give them a name & an origin.
 
 they start at level 1.
 
-6 domains: *combat*, *concentration*, *intuition*, *stealth*, *wilderness*, *lore*.
-
-spread +2, +1, +1, 0, -1, -1.
+assign +2, +1, +1, 0, -1, -1 as you want to the domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*.
 
 ### health
 
@@ -32,9 +30,9 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 
 ### origin
 
-* *elves*: +1 to *lore*, *wilderness* **or** *concentration*,
-* *dwarves*: +1 to *combat*, *concentration* **or** *lore* **or** add an fifth health degree, *scratched*,
-* *halflings*: +1 to *stealth* or *intuition* **and** +1 to save checks involving magic.
+* *elves*: +1 to *lore*, *wilderness* **or** *instinct*,
+* *dwarves*: +1 to *combat*, *lore* **or** add an fifth health degree, *scratched*,
+* *halflings*: +1 to *stealth* or *instinct* **and** +1 to save checks involving magic.
 * *humans*: +1 to any domain
 
 ### equipment
@@ -85,7 +83,7 @@ helpers roll for the action. one plain success (10+) allows the helped character
 
 ### initiative
 
-at the beginning of the fight: roll 2d6+*combat*.
+at the beginning of the fight: roll 2d6+*instinct*.
 
 the ones who succeed will act first, then the mixed successful ones, then the failures. each tier will be considered as simultaneous actions.
 
@@ -95,7 +93,7 @@ on your turn, you are allowed to make one action and one attack.
 
 the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can chose to make two actions ; normal characters can't make two attacks per round.
 
-roll 2d6+**combat** for melee and 2d6+**concentration** for ranged weapons and beat your opponent **ac** (strictly greater). on a hit, the character checks *one* degree of health.
+roll 2d6+**combat** and beat your opponent **ac** (strictly greater). on a hit, the character checks *one* degree of health.
 
 the reroll rule also applies to attack rolls.
 

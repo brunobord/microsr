@@ -44,7 +44,7 @@ pick two (you can't pick the same perk twice):
 * *projectile master*: fighting using a ranged weapon - sling, bow, etc.
 * *nimble fingers*: picking locks, disarming traps, pickpocket, etc.
 * *blazing fast*: running and initiative.
-* *expertise*: chose a specific field of knowledge (science?) where you are an expert. the *gm* has to agree on this field description.
+* *expertise*: choose a specific field of knowledge (science?) where you are an expert. the *gm* has to agree on this field description.
 * *diehard*: when rolling for a save.
 * *tough*: no bonus, but add an extra degree of health, "scratched".
 * *contact*: no bonus ; the player should describe a contact which provides useful services at no or reduced costs (information, material, etc). the **gm** has to agree on the description.
@@ -139,7 +139,7 @@ the ones who succeed will act first, then the mixed successful ones, then the fa
 
 on your turn, you are allowed to make one action and one attack.
 
-the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can chose to make two actions ; normal characters can't make two attacks per round.
+the action can be: move for a few meters, dodge, jump, take an item from your bag, change your weapon, etc. optionally, you can choose to make two actions ; normal characters can't make two attacks per round.
 
 roll 2d6+**combat** and beat your opponent **ac** (strictly greater). on a hit, the character checks *one* degree of health.
 

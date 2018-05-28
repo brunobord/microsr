@@ -9,6 +9,7 @@
 * magic-users and related spell & spellcasting rules.
 * dragons are magic-users.
 * *optional rule*: **gm** permission needed for save rerolls.
+* [typo] "chose" => "choose".
 * [tech] download and use a local copy of the "im fell webfont".
 
 ## beta 1

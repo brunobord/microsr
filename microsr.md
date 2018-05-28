@@ -12,14 +12,14 @@ assign +2, +1, +1, 0, -1, -1 as you want to the domains: *combat*, *instinct*, *
 
 ### health
 
-normal characters have 4 wounds.
+normal characters have 5 wounds.
 
 starting of the *weakened* health degree, characters suffer a modifier to all their actions.
 
 | health        | wounds left | mod |
 |:--------------|:------------|:---:|
 | healthy       | all         |  0  |
-| scratched     | 5 or more   |  0  |
+| (scratched)   | (5 or more) | (0) |
 | weakened      | 4           | -1  |
 | hurt          | 3           | -2  |
 | wounded       | 2           | -3  |
@@ -31,7 +31,7 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 ### origin
 
 * *elves*: +1 to *lore*, *wilderness* **or** *instinct*,
-* *dwarves*: +1 to *combat*, *lore* **or** add an fifth health degree, *scratched*,
+* *dwarves*: +1 to *combat*, *lore* **or** add an sixth health degree, *scratched*,
 * *halflings*: +1 to *stealth* or *instinct* **and** +1 to save checks involving magic.
 * *humans*: +1 to any domain
 
@@ -141,7 +141,7 @@ foes are defined by their:
 
 * **power**: modifier to apply to all actions,
 * **ac**: armor class - *mov* modifiers apply for physical maneuvers.
-* **wounds**: health degrees - the same modifiers apply when reaching 3 wounds left.
+* **wounds**: health degrees - if their starting wound is below 5, the **gm** won't have to apply the usual health modifier for the **npc** actions.
 
     TODO: morale & morale checks.
 

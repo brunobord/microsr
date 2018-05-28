@@ -4,6 +4,7 @@
 
 * removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
 * initiative now relies on *instinct*.
+* *wounds* adjustments: small change to wounds modifier for foes & monsters, fixed a typo: normal characters have 5 wounds.
 * [tech] download and use a local copy of the "im fell webfont".
 
 ## beta 1

@@ -4,6 +4,7 @@
 
 * removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
 * initiative now relies on *instinct*.
+* [tech] download and use a local copy of the "im fell webfont".
 
 ## beta 1
 

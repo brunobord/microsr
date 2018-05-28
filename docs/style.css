@@ -1,7 +1,34 @@
 /*
  * I add this to html files generated with pandoc.
  */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i');
+ /* im-fell-english-regular - latin */
+ @font-face {
+   font-family: 'IM Fell English';
+   font-style: normal;
+   font-weight: 400;
+   src: url('fonts/im-fell-english-v7-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local('IM FELL English Roman'), local('IM_FELL_English_Roman'),
+        url('fonts/im-fell-english-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/im-fell-english-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/im-fell-english-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('fonts/im-fell-english-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/im-fell-english-v7-latin-regular.svg#IMFellEnglish') format('svg'); /* Legacy iOS */
+ }
+
+ /* im-fell-english-italic - latin */
+ @font-face {
+   font-family: 'IM Fell English';
+   font-style: italic;
+   font-weight: 400;
+   src: url('fonts/im-fell-english-v7-latin-italic.eot'); /* IE9 Compat Modes */
+   src: local('IM FELL English Italic'), local('IM_FELL_English_Italic'),
+        url('fonts/im-fell-english-v7-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/im-fell-english-v7-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/im-fell-english-v7-latin-italic.woff') format('woff'), /* Modern Browsers */
+        url('fonts/im-fell-english-v7-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/im-fell-english-v7-latin-italic.svg#IMFellEnglish') format('svg'); /* Legacy iOS */
+ }
+
 
 html {
   font-size: 100%;

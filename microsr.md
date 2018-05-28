@@ -28,12 +28,46 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 
 *out of action* characters must make a *save roll* each round until they're healed, or die.
 
-### origin
+### perks
 
-* *elves*: +1 to *lore*, *wilderness* **or** *instinct*,
-* *dwarves*: +1 to *combat*, *lore* **or** add an sixth health degree, *scratched*,
-* *halflings*: +1 to *stealth* or *instinct* **and** +1 to save checks involving magic.
-* *humans*: +1 to any domain
+your character is either a magic-user or a non-magic user. ask your **gm** if you're allowed to be a magic-user according to the settings and your origin.
+
+#### non-magic perks
+
+humans can usually pick any of these non-magic perks.
+
+each perk gives +1 to any roll related to it, unless specified otherwise.
+
+pick two (you can't pick the same perk twice):
+
+* *blade master*: fighting with a sword or sword-like, axe (can be extended to any melee weapon if the **gm** agrees),
+* *projectile master*: fighting using a ranged weapon - sling, bow, etc.
+* *nimble fingers*: picking locks, disarming traps, pickpocket, etc.
+* *blazing fast*: running and initiative.
+* *expertise*: chose a specific field of knowledge (science?) where you are an expert. the *gm* has to agree on this field description.
+* *diehard*: when rolling for a save.
+* *tough*: no bonus, but add an extra degree of health, "scratched".
+* *contact*: no bonus ; the player should describe a contact which provides useful services at no or reduced costs (information, material, etc). the **gm** has to agree on the description.
+
+#### magic-related perks
+
+all magic requires saying two words of power: an action and a realm. every 1st level caster starts out knowing three words of power, but must know at least **one action** and **one realm**.
+
+#### the four actions
+
+* enhance (*augeo*): strengthen, heal, enlarge, repair, sharpen, etc.
+* diminish (*infirmo*): weaken, damage, injure, reduce, break, dull, deteriorate, etc.
+* communicate with (*defero*): sense, read, seek, inform,
+determine, understand, etc.
+* control (*tempero*): shape, hold, command, form, direct, dictate, etc. (control can only be learned after all other actions have been learned.)
+
+#### the five realms
+
+* body (*corpus*): bodies of living things, plants.
+* mind (*mentus*): the thinking, feeling and conscious part of an entity.
+* spirit (*animus*): essence or soul. (spirit can only be learned after you have at least three realms and three actions.)
+* energy (*navitas*): fire, liquid water, air, magic, electricity, and (optionally) time.
+* matter (*materia*): solid, mindless material like stone, ice, metal, wood, leather, paper, etc.
 
 ### equipment
 
@@ -74,6 +108,18 @@ failure: the **gm** decides. the **gm** and other players can suggest the cost f
 ### rerolls
 
 once per session per level, you are allowed to reroll a failure. the reroll result *is* the definitive result, you are not allowed to reroll a reroll and wait for the next action.
+
+### spellcasting
+
+the magic-user picks a combination of two words of power, one action and one realm, and describes the wanted effect.
+
+> e.g. kirshan the sorcerer want to combine *infirmo* (diminish) with *navitas* (energy) to extinguish a fire that has started in the inn his group was sleeping in. the fire is still small, so the **gm** agrees that the player can roll for it.
+
+spells rolls is a 2d6+**lore** using the usual three-tier outcomes. failures can endanger the magic-user or characters around.
+
+if the spell is offensive, your roll against the character **ac** (strictly greater). on a success, opponent decreases one degree of health.
+
+you can roll *level* x spells per day. you need a full rest to recover your ability to cast spells.
 
 ### optional: help
 
@@ -119,7 +165,7 @@ on a double 6, or "crowns": you succeed and double your damages. optionally, you
 
 ## experience
 
-the **gm** must reward clever choices and decisions, taking risks is okay, but lucky dice rolls would be the reward, not experience points (**xp**). reward acting as a group, following the character's goals, quests or dreams.
+the **gm** must reward clever choices and decisions, taking risks is okay, but lucky dice rolls would be the reward, not experience points. reward acting as a group, following the character's goals, quests or dreams.
 
 surviving is already a reward in itself.
 
@@ -147,17 +193,17 @@ foes are defined by their:
 
 ### micro-bestiary
 
-| name         | power  | ac  | wounds | notes / details                                                                                                                     |
-|:-------------|:------:|:---:|:------:|:------------------------------------------------------------------------------------------------------------------------------------|
-| goblin       |   -1   | 4-6 |   1    | size: 2d6 individuals. +1 to attacks when in horde                                                                                  |
-| giant rat    |   -1   |  8  |   1    | do not apply **mov** penalty, they're quick.                                                                                        |
-| bandit       | -1 — 0 |  6  | 4 — 6  | size: 1d6 or 2d6 individuals                                                                                                        |
-| orc          |   0    | 7-8 | 3 — 4  | some wear shields or mails                                                                                                          |
-| skeleton     |   0    |  6  |   5    | missiles or ranged weapons won't wound them                                                                                         |
-| troll        | 0 — +2 |  9  |   6    | heavy weapons (clubs or hammers)                                                                                                    |
-| giant snake  | 0 — +2 |  6  | 5 — 7  | may be venomous (one save vs. poison per round if bitten) ; constrict attack: one save per round or you're out of action            |
-| giant spider |   +3   |  9  |   7    | one save vs. poison per round if bitten                                                                                             |
-| dragon       |   +4   | 12  |   8    | knows some magic ; fire does 2 wounds ; 2 attacks per round ; *mov* penalty (-4) only on the ground for movements, not when flying. |
+| name         | power  | ac  | wounds | notes / details                                                                                                                             |
+|:-------------|:------:|:---:|:------:|:--------------------------------------------------------------------------------------------------------------------------------------------|
+| goblin       |   -1   | 4-6 |   1    | size: 2d6 individuals. +1 to attacks when in horde                                                                                          |
+| giant rat    |   -1   |  8  |   1    | do not apply **mov** penalty, they're quick.                                                                                                |
+| bandit       | -1 — 0 |  6  | 4 — 6  | size: 1d6 or 2d6 individuals                                                                                                                |
+| orc          |   0    | 7-8 | 3 — 4  | some wear shields or mails                                                                                                                  |
+| skeleton     |   0    |  6  |   5    | missiles or ranged weapons won't wound them                                                                                                 |
+| troll        | 0 — +2 |  9  |   6    | heavy weapons (clubs or hammers)                                                                                                            |
+| giant snake  | 0 — +2 |  6  | 5 — 7  | may be venomous (one save vs. poison per round if bitten) ; constrict attack: one save per round or you're out of action                    |
+| giant spider |   +3   |  9  |   7    | one save vs. poison per round if bitten                                                                                                     |
+| dragon       |   +4   | 12  |   8    | knows 3-6 words of power ; fire does 2 wounds ; 2 attacks per round ; *mov* penalty (-4) only on the ground for movements, not when flying. |
 
 ## traps
 

@@ -109,6 +109,8 @@ failure: the **gm** decides. the **gm** and other players can suggest the cost f
 
 once per session per level, you are allowed to reroll a failure. the reroll result *is* the definitive result, you are not allowed to reroll a reroll and wait for the next action.
 
+*optional*: the **gm** may allow or forbid rerolls in case of save rolls.
+
 ### spellcasting
 
 the magic-user picks a combination of two words of power, one action and one realm, and describes the wanted effect.

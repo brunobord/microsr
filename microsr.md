@@ -242,7 +242,3 @@ traps have a *location* (where is the "thing" that hurts), a *trigger mechanism*
 with all these elements at hand, the characters would only get out of it if the players have to thoroughly searched for them to make sure they can detect, disarm or bypass the traps without being hit.
 
 depending on their *effect*, traps will make from 1 to 3 wounds.
-
-## design notes
-
-    TODO: should I do it?

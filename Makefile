@@ -5,8 +5,7 @@ build:
 		-t html \
 		-s \
 		--css style.css \
-		-A footer.html \
-		microsr.md > docs/index.html
+		microsr.md footer.md > docs/index.html
 
 serve:
 	@echo "Serving http://127.0.0.1:8000/"

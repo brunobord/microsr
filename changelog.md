@@ -8,6 +8,7 @@
 * origins are removed, perks added to give a bonus to the character.
 * magic-users and related spell & spellcasting rules.
 * dragons are magic-users.
+* added morale checks rules & guidelines.
 * *optional rule*: **gm** permission needed for save rerolls.
 * [typo] "chose" => "choose".
 * [tech] download and use a local copy of the "im fell webfont".

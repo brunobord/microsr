@@ -191,7 +191,33 @@ foes are defined by their:
 * **ac**: armor class - *mov* modifiers apply for physical maneuvers.
 * **wounds**: health degrees - if their starting wound is below 5, the **gm** won't have to apply the usual health modifier for the **npc** actions.
 
-    TODO: morale & morale checks.
+### should they fight?
+
+fighting should not be the automatic options when **pcs** are encountering a foe or a monster. they can try to discuss, negotiate, bribe, flee, sneak behind them, etc. let the players be creative. prepare for the unexpected.
+
+monsters are here for a reason. they're not **xp** livestock. they're not here to be killed. they can be afraid. they can flee. they can have a strategy. maybe they could see the **pcs** offer as a chance to escape their miserable life. or they're just hungry.
+
+monsters have motivations. don't ignore this.
+
+### morale checks
+
+when the situation is taking a bad turn for the foes, the **gm** can make a morale check. this situation could be one of this non-exhaustive list:
+
+* they were outnumbering the **pcs**, but now the situation is reversed,
+* they're badly hurt, or threatened by a big danger,
+* the **pcs** have a special protection against which they can't do anything,
+
+whenever the **gm** feels the need to check the foes reaction, roll d6. if the foes **power** is negative, roll two dice and keep the lowest.
+
+| roll | reaction                                   |
+|:----:|:-------------------------------------------|
+|  1   | flee                                       |
+|  2   | surrender / parley                         |
+|  3   | search for help / call to arms             |
+|  4   | try to trick the **pcs** / change strategy |
+|  5   | try to capture / eat the **pcs**           |
+|  6   | keep up the fight                          |
+
 
 ### micro-bestiary
 

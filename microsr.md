@@ -10,6 +10,15 @@ they start at level 1.
 
 assign +2, +1, +1, 0, -1, -1 as you want to the domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*.
 
+alternatively, roll for your modifiers:
+
+|  d6 | modifier |
+|----:|---------:|
+|   1 |       -1 |
+| 2-4 |        0 |
+|   5 |       +1 |
+|   6 |       +2 |
+
 ### health
 
 normal characters have 5 wounds.

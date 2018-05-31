@@ -33,7 +33,7 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 | hurt          | 3           | -2  |
 | wounded       | 2           | -3  |
 | crippled      | 1           | -4  |
-| out of action | 0           | N/A |
+| out of action | 0           | n/a |
 
 *out of action* characters must make a *save roll* each round until they're healed, or die.
 

@@ -13,6 +13,7 @@
 * you can roll for your domain modifiers.
 * add "meat" to your characters.
 * [typo] "chose" => "choose".
+* [typo] fixed "n/a" that was in upper caps.
 * [tech] download and use a local copy of the "im fell webfont".
 * [tech] footer is now a markdown file.
 

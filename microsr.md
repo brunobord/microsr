@@ -99,6 +99,13 @@ armors may inflict movement penalties.
 | heavy      | 10 |  -3 |
 | shield     | +1 | n/a |
 
+### meat
+
+the **gm** should talk to the players about their characters.  
+where do they come from? what's their story?  
+do they have goals? a quest to fulfill?  
+what are their relationships? do they have friends, family, siblings? who are their enemies? what do they fear the most?
+
 ## act
 
 if it's likely, it happens.

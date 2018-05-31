@@ -11,6 +11,7 @@
 * added morale checks rules & guidelines.
 * *optional rule*: **gm** permission needed for save rerolls.
 * you can roll for your domain modifiers.
+* add "meat" to your characters.
 * [typo] "chose" => "choose".
 * [tech] download and use a local copy of the "im fell webfont".
 * [tech] footer is now a markdown file.

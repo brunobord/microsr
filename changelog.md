@@ -12,6 +12,12 @@
 * *optional rule*: **gm** permission needed for save rerolls.
 * you can roll for your domain modifiers.
 * add "meat" to your characters.
+* design notes:
+  * minimalism: small is beautiful, less is more.
+  * domains: why and how. no perception rolls
+  * dice: why d6 only, why 2d6+mod
+  * the game is deadly
+  * freeform magic: flexible and minimalist.
 * [typo] "chose" => "choose".
 * [typo] fixed "n/a" that was in upper caps.
 * [tech] download and use a local copy of the "im fell webfont".

@@ -360,3 +360,8 @@ hr:last-of-type + p {
   font-size: small;
   text-align: right;
 }
+
+/* images */
+#armor + p + table + p > img {
+  float: right;
+}

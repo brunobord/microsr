@@ -8,7 +8,7 @@
 
 ## license
 
-it's published under the terms of the [creative commons cc-by license](https://creativecommons.org/licenses/by/4.0/), which means you can do whatever you want with it, as long as you give appropriate credits when you republish verbatim or modified versions of it.
+the game text and illustrations are published under the terms of the [creative commons cc-by license](https://creativecommons.org/licenses/by/4.0/), which means you can do whatever you want with this, as long as you give appropriate credits when you republish verbatim or modified versions of it.
 
 ## building the html page
 

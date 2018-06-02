@@ -101,6 +101,8 @@ armors may inflict movement penalties.
 | heavy      | 10 |  -3 |
 | shield     | +1 | n/a |
 
+![microknight](img/microknight.png)
+
 ### meat
 
 the **gm** should talk to the players about their characters.  

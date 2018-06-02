@@ -19,6 +19,7 @@
   * the game is deadly
   * freeform magic: flexible and minimalist.
 * [style] act section, better style.
+* [style] added microknight image.
 * [typo] "chose" => "choose".
 * [typo] fixed "n/a" that was in upper caps.
 * [tech] download and use a local copy of the "im fell webfont".

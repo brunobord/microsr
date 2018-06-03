@@ -43,7 +43,7 @@ your character is either a magic-user or a non-magic user. ask your **gm** if yo
 
 #### non-magic perks
 
-humans can usually pick any of these non-magic perks.
+any character can pick any of these non-magic perks, as long as they don't choose the magic-user career.
 
 each perk gives +1 to any roll related to it, unless specified otherwise.
 

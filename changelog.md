@@ -5,7 +5,7 @@
 * removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
 * initiative now relies on *instinct*.
 * *wounds* adjustments: small change to wounds modifier for foes & monsters, fixed a typo: normal characters have 5 wounds.
-* origins are removed, perks added to give a bonus to the character.
+* origins are removed, perks added to give a bonus to the character. non-magical perks are for everybody.
 * magic-users and related spell & spellcasting rules.
 * dragons are magic-users.
 * added morale checks rules & guidelines.

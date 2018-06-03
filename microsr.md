@@ -39,7 +39,9 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 
 ### perks
 
-your character is either a magic-user or a non-magic user. ask your **gm** if you're allowed to be a magic-user according to the settings and your origin.
+your character is either a magic-user or a non-magic user.
+
+ask your **gm** if you're allowed to play a magic-user according to the settings and your origin.
 
 #### non-magic perks
 

@@ -18,6 +18,7 @@
   * dice: why d6 only, why 2d6+mod
   * the game is deadly
   * freeform magic: flexible and minimalist.
+* [style] act section, better style.
 * [typo] "chose" => "choose".
 * [typo] fixed "n/a" that was in upper caps.
 * [tech] download and use a local copy of the "im fell webfont".

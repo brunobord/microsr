@@ -110,9 +110,9 @@ what are their relationships? do they have friends, family, siblings? who are th
 
 ## act
 
-if it's likely, it happens.
-if it's impossible, it doesn't.
-only roll if the **gm** has doubts.
+if it's *likely*, it **happens**.
+if it's *impossible*, it **doesn't**.
+only roll if the **gm** has *doubts*.
 
 roll 2d6+*domain*, include armor or health modifiers when applicable.
 
@@ -120,8 +120,9 @@ roll 2d6+*domain*, include armor or health modifiers when applicable.
 * on 7-9, success with a cost.
 * 10+, success at no cost.
 
-success: the player describes.
-failure: the **gm** decides. the **gm** and other players can suggest the cost for mixed success. the **gm** has the final word.
+*success*: the player describes.  
+*failure*: the **gm** decides.  
+*mixed*: the **gm** and/or other players can suggest the cost for mixed success. the **gm** has the final word.
 
 ### rerolls
 

@@ -18,6 +18,7 @@
   * dice: why d6 only, why 2d6+mod
   * the game is deadly
   * freeform magic: flexible and minimalist.
+* edited the "reroll" section.
 * [style] act section, better style.
 * [style] added microknight image.
 * [typo] "chose" => "choose".

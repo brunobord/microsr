@@ -35,7 +35,7 @@ starting of the *weakened* health degree, characters suffer a modifier to all th
 | crippled      | 1           | -4  |
 | out of action | 0           | n/a |
 
-*out of action* characters must make a *save roll* each round until they're healed, or die.
+*out of action* characters must make a *save check* each round until they're healed, or die.
 
 ### perks
 
@@ -56,7 +56,7 @@ pick two (you can't pick the same perk twice):
 * *nimble fingers*: picking locks, disarming traps, pickpocket, etc.
 * *blazing fast*: running and initiative.
 * *expertise*: choose a specific field of knowledge (science?) where you are an expert. the *gm* has to agree on this field description.
-* *diehard*: when rolling for a save.
+* *diehard*: when rolling for a *save check*.
 * *tough*: no bonus, but add an extra degree of health, "scratched".
 * *contact*: no bonus ; the player should describe a contact which provides useful services at no or reduced costs (information, material, etc). the **gm** has to agree on the description.
 
@@ -132,7 +132,7 @@ once per session per level, you are allowed to reroll a dice roll.
 
 **beware!** the reroll result *becomes* the final result, you can't reroll a reroll, whethere you like it or not.
 
-*optional*: the **gm** may allow or forbid rerolls in case of save rolls.
+*optional*: the **gm** may allow or forbid rerolls in case of *save check*.
 
 ### spellcasting
 
@@ -170,7 +170,7 @@ the reroll rule also applies to attack rolls.
 
 when all degrees are checked, the character is **out of action**, dying. if not healed rapidly, death will come.
 
-make a save check each round. on a failure, the character dies.
+make a *save check* each round. on a failure, the character dies.
 
 ### save check
 
@@ -252,8 +252,8 @@ whenever the **gm** feels the need to check the foes reaction, roll d6. if the f
 | orc          |   0    | 7-8 | 3 — 4  | some wear shields or mails                                                                                                                  |
 | skeleton     |   0    |  6  |   5    | missiles or ranged weapons won't wound them                                                                                                 |
 | troll        | 0 — +2 |  9  |   6    | heavy weapons (clubs or hammers)                                                                                                            |
-| giant snake  | 0 — +2 |  6  | 5 — 7  | may be venomous (one save vs. poison per round if bitten) ; constrict attack: one save per round or you're out of action                    |
-| giant spider |   +3   |  9  |   7    | one save vs. poison per round if bitten                                                                                                     |
+| giant snake  | 0 — +2 |  6  | 5 — 7  | may be venomous (one *save check* vs. poison per round if bitten) ; constrict attack: one *save check* per round or you're out of action    |
+| giant spider |   +3   |  9  |   7    | one *save check* vs. poison per round if bitten                                                                                             |
 | dragon       |   +4   | 12  |   8    | knows 3-6 words of power ; fire does 2 wounds ; 2 attacks per round ; *mov* penalty (-4) only on the ground for movements, not when flying. |
 
 ## traps

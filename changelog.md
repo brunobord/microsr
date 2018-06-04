@@ -19,6 +19,7 @@
   * the game is deadly
   * freeform magic: flexible and minimalist.
 * edited the "reroll" section.
+* fixed wording: it's *save check* everywhere.
 * [style] act section, better style.
 * [style] added microknight image.
 * [typo] "chose" => "choose".

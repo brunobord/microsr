@@ -194,13 +194,13 @@ the **gm** must reward clever choices and decisions, taking risks is okay, but l
 
 surviving is already a reward in itself.
 
-at the end of their first adventure, they'll become level 2.
+at the end of their first adventure, they'll reach level 2.
 
-when they'll accomplish their common goal, they'll become level 3.
+when they'll accomplish their common goal, they'll reach level 3.
 
-when they'll fulfill their personal quest, they'll become level 5.
+when they'll fulfill their personal quest, they'll reach level 5.
 
-when they'll have saved the lives of a whole kingdom, they'll become level 8.
+when they'll have saved the lives of a whole kingdom, they'll reach level 8.
 
 ----
 

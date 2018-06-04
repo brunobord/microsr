@@ -20,6 +20,7 @@
   * freeform magic: flexible and minimalist.
 * edited the "reroll" section.
 * fixed wording: it's *save check* everywhere.
+* fixed wording: you don't "become level X", you, "*reach* level X".
 * [style] act section, better style.
 * [style] added microknight image.
 * [typo] "chose" => "choose".

@@ -21,6 +21,7 @@
 * edited the "reroll" section.
 * fixed wording: it's *save check* everywhere.
 * fixed wording: you don't "become level X", you, "*reach* level X".
+* [nav] changed the navigation & site organization - 3 pages now: the homepage, the game rules, design notes + changelog.
 * [style] act section, better style.
 * [style] added microknight image.
 * [typo] "chose" => "choose".

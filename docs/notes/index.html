@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>microsr — design notes &amp; changelog</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="../style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="design-notes">design notes</h1>
+<h2 id="minimalism">minimalism</h2>
+<p>small is beautiful. less is more. you can &quot;play pretend&quot; with almost no rule. rpgs can be <a href="https://brunobord.github.io/micro-rpg-catalog/six-word-rpg.html">six word long</a>, and still carry enough material to start a decade-long campaign.</p>
+<p>less rules means more room for improvisation, rulings and flexibility, without hindering the flow of the game. you don't have to dig into a 300-page rulebook.</p>
+<blockquote>
+<p>&quot;can my character dive in from this cliff in the ocean?&quot;<br />
+&quot;let me see... okay, roll 2d6 and add your <em>instinct</em> mod, we'll work out, but you might be warned: it's dangerous, there's a high risk to get hurt.&quot;<br />
+&quot;ok, let me dive, the orcs are behind me, there's no other way out&quot;.</p>
+</blockquote>
+<p>there's no rule for that, no damage table depending on the height of the cliff or the water temperature. the <strong>gm</strong> is more tempted to say &quot;yes&quot; and let the players write the story for their characters.</p>
+<p>you can get your head around the basic mechanism and houserule in a snap.</p>
+<p>but <strong>beware!</strong> less rules means more effort for the <strong>gm</strong> and the players to build around the characters and the scenes, it means more freedom, so it means more choice to make.</p>
+<p>minimalism doesn't mean it's easier.</p>
+<h2 id="dice">dice</h2>
+<p><em>microsr</em> only uses d6.</p>
+<ul>
+<li>six-siders are ubiquitous. you can foster any boardgame in anybody's house. and if your friends' house doesn't have any boardgame or dice to loot... well... maybe it's time for you to reconsider your relationship.</li>
+<li>the sum of two d6 offers an interesting bell curve, easy to grasp and the three-tier success ladder from Apocalypse World is a solid tool to randomize results with a variety of outputs. it's not just &quot;success vs. failure&quot; with definitive odds.</li>
+<li>little math, and the satisfaction to &quot;roll high&quot; to win. &quot;roll under&quot; is nice, but it's easier to grasp for new players to understand that <em>higher is better</em>.</li>
+</ul>
+<p>it's nothing revolutionary, for sure.</p>
+<p>there are plenty of d6-based systems. <em>microsr</em> could have been &quot;yet-another-d20-system&quot; but... if you need a micro osr roleplaying game, simply buy the first edition of <a href="http://www.drivethrurpg.com/product/178359/The-Black-Hack">The Black Hack</a>, by David Black, for example.</p>
+<h2 id="domains">domains</h2>
+<p>stats usually represent the inherent abilities of a character. fine.<br />
+skills usually represent the <em>acquired</em> abilities, due to their background, training, experience. good.</p>
+<p>both are great. both will give coherent characters, add some spice to the game and allow players to make choices on the actions of their characters (<em>&quot;shall we do 'x'? my bonus is 'y' so we're confident or doubtful...&quot;</em>).</p>
+<p><em>domains</em> are a bit different ; some are purely inherent abilities (<em>instinct</em>), some are purely acquired (<em>lore</em>), but to some extent, they're both acquired &amp; inherent. maybe your character is gifted for <em>combat</em> because of their huge muscle mass, or maybe that's because they've followed some training... or both! <em>lore</em> works the same: you've been educated so you know stuff, but you've also been chosen to have lessons because somebody has perceived your excellent memory and capacity to learn...</p>
+<p>here, there's no <em>int</em> or <em>cha</em> stat. player skills prevails for these.<br />
+for example: the intelligence of the player prevails when you need to solve a puzzle or decipher an enigma. how would you represent the fact that the <em>player</em> knows the answer and not the character? and what about the opposite?</p>
+<p>and, as expected, there's no perception-related check stat. you don't roll to see a trap, players have to do their job if they want to survive.</p>
+<p>but of course, if you don't want to use domains, switch to the usual sextuor: <em>str</em>, <em>dex</em>, <em>con</em>, <em>int</em>, <em>wis</em>, <em>char</em>, the general mechanics will work.</p>
+<h2 id="deadly">deadly</h2>
+<p>characters only have 5 &quot;wounds&quot;. a &quot;tough&quot; character would have up to 6 wounds. a normal weapon deals one wound. heavy weapons deal two. traps from one to three wounds.</p>
+<p>players would probably think twice before trying to engage in a fight. they'll check for trap.</p>
+<p>because the usual dungeon exploration dangers can cripple them very badly, it should be a motivation to avoid them instead of rushing towards them.</p>
+<h2 id="freeform-magic">freeform magic</h2>
+<p>spell lists are great. really. but there are so many different ways to design them that it becomes more and more complicated as you dig into the details. you've got magic realms, wizardry, sorcery, elementary magic, illusions.</p>
+<p>should we have clerics? oh then you'll need to build a pantheon, religions and principles, define heresy, etc.</p>
+<p>should we scale them on the level ladder? should we not, and make them more powerful as you level up?</p>
+<p>pure freeform magic, on the other hand, is hard to handle. how to say &quot;no&quot; to a player that wants to set the whole castle on fire, just because their character is a wizard?</p>
+<p>this <a href="http://www.panix.com/~sos/rpg/4by5.html">“four by five magic”</a> is, in my opinion, an elegant mechanism between pure freeform magic and spell lists.</p>
+<p>you have magical realms, that act as the core <em>domains</em> of the character, and then actions to apply an effect on the given domain.<br />
+they're as vague and as precise as you want. the <strong>gm</strong> can discuss them with the player, and define its limits and how powerful this magic would be. eventually, when the magic-user would level up, they'll be able to throw more powerful spells and more times per day.</p>
+<h2 id="colophon">colophon</h2>
+<ul>
+<li>the six domains were originally inspired by <a href="http://www.story-games.com/forums/discussion/21359/lite-rpgs-to-run-a-d-d-like-game-session">this forum thread on Story-Game.com</a> about converting D&amp;D using Fate Accelerated approaches.</li>
+<li>the magic system is known as <a href="http://www.panix.com/~sos/rpg/4by5.html">“four by five magic”</a>, and was especially designed for fudge, but as you can see, it fits every fantasy system.</li>
+<li>the 3-tier resolution roll is inspired by the <a href="http://apocalypse-world.com/">Apocalypse World</a> move resolution (although this game is not powered by moves and it can't be considered as “PbtA”).</li>
+</ul>
+<h1 id="changes">changes</h1>
+<h2 id="current-unreleased">current (unreleased)</h2>
+<ul>
+<li>removed domains: <em>concentration</em> &amp; <em>intuition</em>, added <em>instinct</em> &amp; <em>athletics</em>.</li>
+<li>initiative now relies on <em>instinct</em>.</li>
+<li><em>wounds</em> adjustments: small change to wounds modifier for foes &amp; monsters, fixed a typo: normal characters have 5 wounds.</li>
+<li>origins are removed, perks added to give a bonus to the character. non-magical perks are for everybody.</li>
+<li>magic-users and related spell &amp; spellcasting rules.</li>
+<li>dragons are magic-users.</li>
+<li>added morale checks rules &amp; guidelines.</li>
+<li><em>optional rule</em>: <strong>gm</strong> permission needed for save rerolls.</li>
+<li>you can roll for your domain modifiers.</li>
+<li>add &quot;meat&quot; to your characters.</li>
+<li>design notes:
+<ul>
+<li>minimalism: small is beautiful, less is more.</li>
+<li>domains: why and how. no perception rolls</li>
+<li>dice: why d6 only, why 2d6+mod</li>
+<li>the game is deadly</li>
+<li>freeform magic: flexible and minimalist.</li>
+</ul></li>
+<li>edited the &quot;reroll&quot; section.</li>
+<li>fixed wording: it's <em>save check</em> everywhere.</li>
+<li>fixed wording: you don't &quot;become level X&quot;, you, &quot;<em>reach</em> level X&quot;.</li>
+<li>[nav] changed the navigation &amp; site organization - 3 pages now: the homepage, the game rules, design notes + changelog.</li>
+<li>[style] act section, better style.</li>
+<li>[style] added microknight image.</li>
+<li>[typo] &quot;chose&quot; =&gt; &quot;choose&quot;.</li>
+<li>[typo] fixed &quot;n/a&quot; that was in upper caps.</li>
+<li>[tech] download and use a local copy of the &quot;im fell webfont&quot;.</li>
+<li>[tech] footer is now a markdown file.</li>
+</ul>
+<h2 id="beta-1">beta 1</h2>
+<p>first published version.</p>
+<p><em>microsr</em> is a minimalist take on old-school roleplaying game, using a minimalist ruleset.</p>
+<ul>
+<li>uses only six-siders (d6),</li>
+<li>actions are resolved with 2d6+modifier and comparing to the same 3-tier levels &quot;à la&quot; <em>apocalypse world</em>,</li>
+<li>allegedly quite deadly (it's been ran through simulations, at basic level, the monsters are dangerous),</li>
+<li>characters don't have &quot;charisma&quot; or &quot;intelligence&quot; stat, they are due to the player,</li>
+<li>flexible experience system,</li>
+<li>published under the terms of the <a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by license</a>.</li>
+</ul>
+<hr />
+<p>microsr text &amp; illustrations are © Bruno Bord - 2018<br />
+<a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by</a></p>
+</body>
+</html>

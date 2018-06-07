@@ -1,10 +1,6 @@
-----
+# design notes
 
-# notes
-
-## design notes
-
-### minimalism
+## minimalism
 
 small is beautiful. less is more. you can "play pretend" with almost no rule. rpgs can be [six word long](https://brunobord.github.io/micro-rpg-catalog/six-word-rpg.html), and still carry enough material to start a decade-long campaign.
 
@@ -22,7 +18,7 @@ but **beware!** less rules means more effort for the **gm** and the players to b
 
 minimalism doesn't mean it's easier.
 
-### dice
+## dice
 
 *microsr* only uses d6.
 
@@ -34,7 +30,7 @@ it's nothing revolutionary, for sure.
 
 there are plenty of d6-based systems. *microsr* could have been "yet-another-d20-system" but... if you need a micro osr roleplaying game, simply buy the first edition of [The Black Hack](http://www.drivethrurpg.com/product/178359/The-Black-Hack), by David Black, for example.
 
-### domains
+## domains
 
 stats usually represent the inherent abilities of a character. fine.  
 skills usually represent the *acquired* abilities, due to their background, training, experience. good.
@@ -50,8 +46,7 @@ and, as expected, there's no perception-related check stat. you don't roll to se
 
 but of course, if you don't want to use domains, switch to the usual sextuor: *str*, *dex*, *con*, *int*, *wis*, *char*, the general mechanics will work.
 
-
-### deadly
+## deadly
 
 characters only have 5 "wounds". a "tough" character would have up to 6 wounds. a normal weapon deals one wound. heavy weapons deal two. traps from one to three wounds.
 
@@ -59,7 +54,7 @@ players would probably think twice before trying to engage in a fight. they'll c
 
 because the usual dungeon exploration dangers can cripple them very badly, it should be a motivation to avoid them instead of rushing towards them.
 
-### freeform magic
+## freeform magic
 
 spell lists are great. really. but there are so many different ways to design them that it becomes more and more complicated as you dig into the details. you've got magic realms, wizardry, sorcery, elementary magic, illusions.
 
@@ -73,14 +68,3 @@ this [“four by five magic”](http://www.panix.com/~sos/rpg/4by5.html) is, in 
 
 you have magical realms, that act as the core *domains* of the character, and then actions to apply an effect on the given domain.  
 they're as vague and as precise as you want. the **gm** can discuss them with the player, and define its limits and how powerful this magic would be. eventually, when the magic-user would level up, they'll be able to throw more powerful spells and more times per day.
-
-## colophon
-
-* the six domains were originally inspired by [this forum thread on Story-Game.com](http://www.story-games.com/forums/discussion/21359/lite-rpgs-to-run-a-d-d-like-game-session) about converting D&D using Fate Accelerated approaches.
-* the magic system is known as [“four by five magic”](http://www.panix.com/~sos/rpg/4by5.html), and was especially designed for fudge, but as you can see, it fits every fantasy system.
-* the 3-tier resolution roll is inspired by the [Apocalypse World](http://apocalypse-world.com/) move resolution (although this game is not powered by moves and it can't be considered as “PbtA”).
-
-----
-
-microsr text & illustrations are &copy; Bruno Bord - 2018
-[creative commons cc-by](https://creativecommons.org/licenses/by/4.0/)

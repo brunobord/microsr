@@ -1,11 +1,30 @@
 build:
+	# HTML index
 	pandoc \
 		-f gfm+hard_line_breaks \
 		--metadata=pagetitle:"microsr — minimalist d6-based rules for old-school roleplaying game" \
 		-t html \
 		-s \
 		--css style.css \
-		microsr.md footer.md > docs/index.html
+		src/index.md src/_footer.md > docs/index.html
+	# The Game
+	pandoc \
+		-f gfm+hard_line_breaks \
+		--metadata=pagetitle:"microsr — rules for old-school roleplaying game" \
+		-t html \
+		-s \
+		--css ../style.css \
+		src/game/index.md src/_footer.md > docs/game/index.html
+	# Design notes + Changelog
+	pandoc \
+		-f gfm+hard_line_breaks \
+		--metadata=pagetitle:"microsr — design notes & changelog" \
+		-t html \
+		-s \
+		--css ../style.css \
+		src/notes/index.md src/notes/colophon.md changelog.md src/_footer.md > docs/notes/index.html
+	# Copy images
+	cp src/img/* docs/img/
 
 serve:
 	@echo "Serving http://127.0.0.1:8000/"

@@ -1,6 +1,8 @@
 # changes
 
-## current (unreleased)
+## beta 2
+
+released on june, 7th 2018.
 
 * removed domains: *concentration* & *intuition*, added *instinct* & *athletics*.
 * initiative now relies on *instinct*.

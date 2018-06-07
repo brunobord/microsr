@@ -24,6 +24,7 @@
 * [nav] changed the navigation & site organization - 3 pages now: the homepage, the game rules, design notes + changelog.
 * [style] act section, better style.
 * [style] added microknight image.
+* [style] added micromage image.
 * [typo] "chose" => "choose".
 * [typo] fixed "n/a" that was in upper caps.
 * [tech] download and use a local copy of the "im fell webfont".

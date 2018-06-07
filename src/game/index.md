@@ -62,7 +62,10 @@ pick two (you can't pick the same perk twice):
 
 #### magic-related perks
 
+![micromage](../img/micromage.png)
+
 all magic requires saying two words of power: an action and a realm. every 1st level caster starts out knowing three words of power, but must know at least **one action** and **one realm**.
+
 
 #### the four actions
 

@@ -365,3 +365,8 @@ hr:last-of-type + p {
 #armor + p + table + p > img {
   float: right;
 }
+
+#magic-related-perks + p > img {
+  float: left;
+  margin-right: .7em;
+}

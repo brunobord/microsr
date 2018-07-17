@@ -1,5 +1,9 @@
 # changes
 
+## master
+
+* [tech] disabled the `ascii_identifiers` extension. latest pandoc release was mangling section identifiers.
+
 ## beta 2
 
 released on june, 7th 2018.

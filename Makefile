@@ -1,7 +1,7 @@
 build:
 	# HTML index
 	pandoc \
-		-f gfm+hard_line_breaks \
+		-f gfm+hard_line_breaks-ascii_identifiers \
 		--metadata=pagetitle:"microsr — minimalist d6-based rules for old-school roleplaying game" \
 		-t html \
 		-s \
@@ -9,7 +9,7 @@ build:
 		src/index.md src/_footer.md > docs/index.html
 	# The Game
 	pandoc \
-		-f gfm+hard_line_breaks \
+		-f gfm+hard_line_breaks-ascii_identifiers \
 		--metadata=pagetitle:"microsr — rules for old-school roleplaying game" \
 		-t html \
 		-s \
@@ -17,7 +17,7 @@ build:
 		src/game/index.md src/_footer.md > docs/game/index.html
 	# Design notes + Changelog
 	pandoc \
-		-f gfm+hard_line_breaks \
+		-f gfm+hard_line_breaks-ascii_identifiers \
 		--metadata=pagetitle:"microsr — design notes & changelog" \
 		-t html \
 		-s \

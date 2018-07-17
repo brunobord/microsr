@@ -8,16 +8,21 @@ give them a name & an origin.
 
 they start at level 1.
 
-assign +2, +1, +1, 0, -1, -1 as you want to the domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*.
+there are six domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*. you have three methods to set their scores. ask the gm for the preferred method.
 
-alternatively, roll for your modifiers:
+1 - roll for your modifiers
 
 |  d6 | modifier |
 |----:|---------:|
-|   1 |       -1 |
-| 2-4 |        0 |
-|   5 |       +1 |
-|   6 |       +2 |
+|   1 |       -2 |
+|   2 |       -1 |
+| 3-4 |        0 |
+| 5-6 |       +1 |
+
+2 - assign +1, +1, 0, 0, -1, -2 as you want.
+
+3 - assign scores as you want, but no starting score should be above +1 or below
+-2. the sum of all scores should be equal to -1.
 
 ### health
 

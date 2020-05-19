@@ -28,7 +28,7 @@ build:
 
 serve:
 	@echo "Serving http://127.0.0.1:8000/"
-	python3 -m http.server
+	cd docs; python3 -m http.server
 
 # For the original author only: tiny tool to download the Google Webfont and
 # host it on server, rather than using Google Webfont service.

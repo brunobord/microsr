@@ -8,7 +8,7 @@ give them a name & an origin.
 
 they start at level 1.
 
-there are six domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*. you have three methods to set their scores. ask the gm for the preferred method.
+there are six domains: *combat*, *instinct*, *stealth*, *wilderness*, *lore*, *athletics*. you have three methods to set their scores. ask the gm for their preferred method.
 
 1 - roll for your modifiers
 
@@ -138,9 +138,9 @@ roll 2d6+*domain*, include armor or health modifiers when applicable.
 
 once per session per level, you are allowed to reroll a dice roll.
 
-**beware!** the reroll result *becomes* the final result, you can't reroll a reroll, whethere you like it or not.
+**beware!** the reroll result *becomes* the final result, you can't reroll a reroll, whether you like it or not.
 
-*optional*: the **gm** may allow or forbid rerolls in case of *save check*.
+*optional*: the **gm** may allow or forbid rerolls for *save check*.
 
 ### spellcasting
 
@@ -236,7 +236,7 @@ when the situation is taking a bad turn for the foes, the **gm** can make a mora
 
 * they were outnumbering the **pcs**, but now the situation is reversed,
 * they're badly hurt, or threatened by a big danger,
-* the **pcs** have a special protection against which they can't do anything,
+* the **pcs** have a special protection that the foes can't overcome,
 
 whenever the **gm** feels the need to check the foes reaction, roll d6. if the foes **might** is negative, roll two dice and keep the lowest.
 

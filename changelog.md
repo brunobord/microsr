@@ -2,9 +2,11 @@
 
 ## master
 
+* npc main stat becomes *might*. the word *power* was also used for magic, that was confusing.
 * changed starting bonus for domains, applying a "worse" output. randomly, on average, their sum is -1. static scores are adapted to it.
 * [tech] disabled the `ascii_identifiers` extension. latest pandoc release was mangling section identifiers.
 * [tech] newest pandoc release (2.9.2.1) removes HTML entities (such as `&quot;`)
+
 
 ## beta 2
 

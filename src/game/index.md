@@ -218,7 +218,7 @@ when they'll have saved the lives of a whole kingdom, they'll reach level 8.
 
 foes are defined by their:
 
-* **power**: modifier to apply to all actions,
+* **might**: modifier to apply to all actions,
 * **ac**: armor class - *mov* modifiers apply for physical maneuvers.
 * **wounds**: health degrees - if their starting wound is below 5, the **gm** won't have to apply the usual health modifier for the **npc** actions.
 
@@ -238,7 +238,7 @@ when the situation is taking a bad turn for the foes, the **gm** can make a mora
 * they're badly hurt, or threatened by a big danger,
 * the **pcs** have a special protection against which they can't do anything,
 
-whenever the **gm** feels the need to check the foes reaction, roll d6. if the foes **power** is negative, roll two dice and keep the lowest.
+whenever the **gm** feels the need to check the foes reaction, roll d6. if the foes **might** is negative, roll two dice and keep the lowest.
 
 | roll | reaction                                   |
 |:----:|:-------------------------------------------|
@@ -252,7 +252,7 @@ whenever the **gm** feels the need to check the foes reaction, roll d6. if the f
 
 ### micro-bestiary
 
-| name         | power  | ac  | wounds | notes / details                                                                                                                             |
+| name         | might  | ac  | wounds | notes / details                                                                                                                             |
 |:-------------|:------:|:---:|:------:|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | goblin       |   -1   | 4-6 |   1    | size: 2d6 individuals. +1 to attacks when in horde                                                                                          |
 | giant rat    |   -1   |  8  |   1    | do not apply **mov** penalty, they're quick.                                                                                                |
